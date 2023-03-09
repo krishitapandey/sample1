@@ -6,29 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>marhin collapse </title>
     <style>
-        *{margin: 0;padding: 0;}
+        *{ margin: 0;
+           padding: 0;
+           box-sizing: border-box;}
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: #6c6a6a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         .box1{
-            background-color: aqua;
-            margin: 30px;
-            height: 290px;
-            width:233px;
-            border: 2px solid black ;
+            width: 200px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin: 10px;
+            border-radius: 4%;
+            transition: all 0.3s ease-in-out;
+           
 
         }
+        .box1:hover{
+            background-color: #f1f1f1;
+            margin: 10px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            background-color: aqua;
+        }
         .box2{
-            background-color: rgb(10, 40, 40); 
-            color: white;
-            /* margin: 20px; */
-            height: 1px;
-            width: 100%;
-            padding: 90px;
-            border:6px solid rgb(170, 10, 10);
-            box-sizing: border-box;
+            width: 200px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            margin: 10px;
+            border-radius: 4%;
+            transition: all 0.3s ease-in-out;
+           
+        }
+        .box2:hover{
+            background-color: #f1f1f1;
+            margin: 10px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            background-color: aqua;
+
         }
     </style>
 </head>
 <body>
-    <div class="box1">hello krishita <div class="box2">what are you doing ?j </div></div>
+    <div class="container">
+        <div class="box1">hello krishita</div> <div class="box2">what are you doing </div>
+    </div>
     
 </body>
 </html>
